@@ -8,7 +8,7 @@ Category.init(
   {
     // define columns
     id: {
-      type: DataTypes.INEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
@@ -18,7 +18,7 @@ Category.init(
       allowNull: false,
     },
   },
-  
+
   {
     sequelize,
     timestamps: false,
